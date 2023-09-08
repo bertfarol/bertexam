@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      html {
+        font-size: 16px;
+      }
+
+      /* Font size for 320px viewport width */
+      @media (max-width: 320px) {
+        html {
+          font-size: 14px;
+        }
+
+        h1 {
+          font-size: calc(1rem * 3.625);
+        }
+      }
+
+      /* Font size for 375px viewport width */
+      @media (min-width: 321px) and (max-width: 375px) {
+        h1 {
+          font-size: calc(1rem * 3.625);
+        }
+      }
+
+      /* Font size for 640px viewport width */
+      @media (min-width: 376px) and (max-width: 640px) {
+        h1 {
+          font-size: calc(1rem * 3.625);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <h1 class="heading-01">会員の生活の安定と<br />福祉の向上を目指して</h1>
+  </body>
+</html>
